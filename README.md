@@ -10,8 +10,8 @@ These are the resources that make up traitbank:
 https://zenodo.org/records/22924991/files/tbHierarchyV091.tsv
 https://zenodo.org/records/22776578/files/terms_0.9.tsv
 https://zenodo.org/records/22776839/files/references_0.9.tsv
-https://zenodo.org/records/22777079/files/Kubitzki_0.9.tsv
-https://zenodo.org/records/22777312/files/Brusca_0.9.txt
+https://zenodo.org/records/22941933/files/Kubitzki_1.0.tsv
+https://zenodo.org/records/22941917/files/Brusca_1.0.txt
 https://zenodo.org/records/22815869/files/Houlbreque.txt
 ```
 
