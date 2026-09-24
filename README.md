@@ -12,7 +12,8 @@ https://zenodo.org/records/22776578/files/terms_0.9.tsv
 https://zenodo.org/records/22776839/files/references_0.9.tsv
 https://zenodo.org/records/22941933/files/Kubitzki_1.0.tsv
 https://zenodo.org/records/22941917/files/Brusca_1.0.txt
-https://zenodo.org/records/22815869/files/Houlbreque.txt
+https://zenodo.org/records/22943467/files/sexual_systems_and_characters.tsv
+https://zenodo.org/records/22943004/files/PalmTraits.tsv
 ```
 
 ## Building TraitBank
