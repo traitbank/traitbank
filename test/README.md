@@ -56,4 +56,4 @@ hash://md5/61025f4a62c0745aa5b70e61810e6286  5_mule_deer_mass.cypher.response-ne
 
 [1] Hammock, J., & Schulz, K. (2026). Encyclopedia of Life's TraitBank: Neo4j Graph Database Archive and Example Cypher Queries hash://md5/d96ce5ae7708424700ebadcd83936236 hash://sha256/baaa475538f53cfbf71e0ce6f28f4b1ef4d7ff19ffa596f3c2e4b64145c36f51 [Dataset]. Zenodo. [https://doi.org/10.5281/zenodo.22883905](https://doi.org/10.5281/zenodo.22883905).
 
-[2] Hammock, J., & Schulz, K. (2026). Encyclopedia of Life's TraitBank: Neo4j Graph Database Archive and Example Cypher Queries hash://md5/d96ce5ae7708424700ebadcd83936236 hash://sha256/baaa475538f53cfbf71e0ce6f28f4b1ef4d7ff19ffa596f3c2e4b64145c36f51 [Dataset]. Zenodo. [https://doi.org/10.5281/zenodo.22883905](https://doi.org/10.5281/zenodo.22883905).
+[2] Hammock, J., & Schulz, K. (2026). Encyclopedia of Life's TraitBank: Neo4j Graph Database Archive and Example Cypher Queries hash://md5/e808de2273ef563f8157a31c0b277d4a hash://sha256/4bd3e8115cd0b9f33af272d817d4ccc37af7f465a9762e0d9cdd0d94f14d236e [Dataset]. Zenodo. [https://doi.org/10.5281/zenodo.22927080](https://doi.org/10.5281/zenodo.22927080).
