@@ -12,7 +12,7 @@ https://zenodo.org/records/22776578/files/terms_0.9.tsv
 https://zenodo.org/records/22776839/files/references_0.9.tsv
 https://zenodo.org/records/22941933/files/Kubitzki_1.0.tsv
 https://zenodo.org/records/22941917/files/Brusca_1.0.txt
-https://zenodo.org/records/22949235/files/traits.tsv
+https://zenodo.org/records/23027394/files/traits.tsv
 https://zenodo.org/records/22949175/files/traits.tsv
 https://zenodo.org/records/22949266/files/traits.tsv
 https://zenodo.org/records/22949331/files/traits.tsv
