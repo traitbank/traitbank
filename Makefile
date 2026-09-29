@@ -26,7 +26,7 @@ dist/trait.json: HEAD
 	  | grep -v tbHierarchy \
 	  | grep -v references \
 	  | grep -oE "hash://md5/[a-f0-9]{32}" \
-	  | xargs -I{} bash -c "preston cat {} | mlr --itsvlite --ojsonl --no-auto-unflatten cat | jq -c '. += {\"resourceID\" : \"{}\" }'" \
+	  | xargs -I{} bash -c "preston cat {} | mlr --itsvlite --ojsonl --no-auto-unflatten cat | jq -c '. += {\"tb:resourceID\" : \"{}\" }'" \
 	  > dist/trait.json
 
 dist/trait.tsv: dist/trait.json json2tsv.jq

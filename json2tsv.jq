@@ -12,6 +12,7 @@
 ."http://rs.tdwg.org/dwc/terms/lifeStage",
 ."http://rs.tdwg.org/dwc/terms/sex",
 ."http://rs.tdwg.org/dwc/terms/referenceID",
-."http://purl.org/dc/terms/source"
+."http://purl.org/dc/terms/source",
+."tb:resourceID"
 ]
  | @tsv
