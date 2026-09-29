@@ -1,6 +1,5 @@
 [ 
-."http://rs.tdwg.org/dwc/terms/taxonID",
-.taxonID,
+."tb:taxonKey",
 .exclude, 
 .infer,
 ."http://rs.tdwg.org/dwc/terms/scientificName",
