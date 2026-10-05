@@ -32,7 +32,7 @@ dist/trait.json: HEAD
 	  | xargs -I{} bash -c "preston cat {} | mlr --itsvlite --ojsonl --no-auto-unflatten cat | jq -c '. += {\"tb:resourceID\" : \"{}\" }'" \
 	  > dist/trait.json.tmp
 	  cat dist/trait.json.tmp \
-	  | mlr --ijsonl --ojsonl join -j 'tb:resourceID' -f dist/trait-files.json \ 
+	  | mlr --ijsonl --ojsonl join -j 'tb:resourceID' -f dist/trait-files.json \
 	  > dist/trait.json
 	  rm dist/trait.json.tmp
 
