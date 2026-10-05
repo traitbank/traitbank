@@ -25,9 +25,16 @@ dist/trait.json: HEAD
 	  | grep -v terms \
 	  | grep -v tbHierarchy \
 	  | grep -v references \
-	  | grep -oE "hash://md5/[a-f0-9]{32}" \
-	  | xargs -I{} bash -c "preston cat {} | mlr --itsvlite --ojsonl --no-auto-unflatten cat | jq -c '. += {\"tb:resourceID\" : \"{}\" }'" \
+	  | sed -E 's|^(<https://zenodo.org/records/)([0-9]+)(.*)(hash://md5/[a-f0-9]{32}).*|{ "tb:resourceUrl": "https://doi.org/10.5281/zenodo.\2", "tb:resourceID": "\4" }|g' \
+	  > dist/trait-files.json
+	  cat dist/trait-files.json \
+	  | jq --raw-output '.["tb:resourceID"]' \
+	  | xargs -I{} bash -c "preston cat {} | mlr --itsvlite --ojsonl --no-auto-unflatten cat" \
+	  > dist/trait.json.tmp
+	  cat dist/trait.json.tmp \
+	  | mlr --ijsonl --ojsonl join -j 'tb:resourceID' -f dist/trait-files.json \ 
 	  > dist/trait.json
+	  rm dist/trait.json.tmp
 
 dist/trait.tsv: dist/trait.json json2tsv.jq
 	cat header.json | jq --raw-output '. | @tsv' > dist/trait.tsv
