@@ -13,6 +13,7 @@
 ."http://rs.tdwg.org/dwc/terms/sex",
 ."http://rs.tdwg.org/dwc/terms/referenceID",
 ."http://purl.org/dc/terms/source",
-."tb:resourceID"
+."tb:resourceID",
+."tb:resourceUrl"
 ]
  | @tsv
